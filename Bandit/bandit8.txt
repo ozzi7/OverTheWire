@@ -1,0 +1,4 @@
+cd /home/bandit7/
+cat data.txt | grep 'millionth'
+username bandit8
+password cvX2JJa4CFALtqS87jk27qwqGhBM9plV

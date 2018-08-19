@@ -1,0 +1,3 @@
+cat /home/bandit4/inhere/"-file07"
+username bandit5
+password koReBOKuIDDepwhWk7jZC0RTdopnAYKh

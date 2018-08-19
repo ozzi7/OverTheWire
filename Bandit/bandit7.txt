@@ -1,0 +1,5 @@
+cd /
+find -group bandit6 -size 33c -user bandit7
+cat ./var/lib/dpkg/info/bandit7.password
+username bandit7
+password HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs

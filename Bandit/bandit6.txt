@@ -1,0 +1,5 @@
+cd /home/bandit5/inhere/
+find -size 1033c # returns the file with 1033 bytes
+cat <the found file>
+username bandit6
+password DXjZPULLxYr17uwoI01bNLQbtFemEgo7

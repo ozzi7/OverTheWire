@@ -1,0 +1,3 @@
+cat /home/bandit8/data.txt | sort | uniq -u
+username bandit9
+password UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR

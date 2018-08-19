@@ -1,2 +1,3 @@
 cat /home/bandit2/"spaces in this filename"
+username bandit3
 password UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
