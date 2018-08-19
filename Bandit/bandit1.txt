@@ -1,1 +1,2 @@
 cat /home/bandit0/readme
+password boJ9jbbUNNfktd78OOpsqOltutMc3MY1

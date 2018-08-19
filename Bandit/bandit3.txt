@@ -1,0 +1,2 @@
+cat /home/bandit2/"spaces in this filename"
+password UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
