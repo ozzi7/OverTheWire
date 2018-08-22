@@ -1,0 +1,3 @@
+cat /home/bandit10/data.txt | base64 -d
+username bandit11
+password IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR

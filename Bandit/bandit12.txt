@@ -1,0 +1,3 @@
+cat /home/bandit11/data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+username bandit12
+password 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
