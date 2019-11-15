@@ -1,1 +1,5 @@
 ssh bandit14@localhost -i sshkey-private
+cat /etc/bandit_pass/bandit14
+
+username bandit14
+password 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
