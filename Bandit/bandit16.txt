@@ -1,0 +1,5 @@
+openssl s_client -connect localhost:30001
+[paste key]
+
+username bandit16
+password cluFn7wTiGryunymYOu4RcffSxQluehd
