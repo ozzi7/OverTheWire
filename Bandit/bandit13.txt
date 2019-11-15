@@ -1,0 +1,25 @@
+mkdir /tmp/whateveryouwant
+cp /home/bandit12/data.txt /tmp/whateveryouwant/data.txt
+cd /tmp/whateveryouwant
+cat data.txt | xxd -r > data2.bin
+file data2.bin	# will indicate that the file was compressed with gzip
+zcat data2.bin # will decompress no matter the file extension, otherwise rename file first to tar.gz and use gzip -d
+file data2.tar.gz # will show that it is now a bzip2 compressed file
+bzip -d data2.tar.gz  
+file data2.tar.gz.out # will indicate that the file is compressed with gzip 
+mv data2.tar.gz.out data4.tar.gz
+file data4.tar # POSIX tar archive
+tar -x --format=posix -f data4.tar
+file data5.bin
+tar -x --format=posix -f data5.bin # now is bzip compressed, silly exercise...
+bzip2 -d data6.bin
+file data6.bin.out # POSIX tar archive
+tar -x --format=posix -f data6.bin.out
+file data8.bin
+mv data8.bin data8.tar.gz
+gzip -d data8.tar.gz
+file data8.tar # ASCII text!
+cat data8.tar
+
+username bandit13
+password 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
