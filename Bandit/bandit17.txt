@@ -1,0 +1,17 @@
+nmap localhost -p31000-32000
+31518/tcp filtered unknown
+31790/tcp open     unknown
+
+openssl s_client -connect localhost:31790
+cd /tmp/whateveryouwant
+nano priv.txt
+[copy paste key]
+
+chmod 600 /tmp/whateveryouwant/priv.txt # key file requires special rights
+ssh bandit17@localhost -i /tmp/uhm/priv.txt 
+cat /etc/bandit_pass/bandit17
+
+# returns private key
+
+username bandit17
+password xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
