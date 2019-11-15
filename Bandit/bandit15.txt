@@ -1,0 +1,5 @@
+nc localhost 30000
+[paste 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e]
+
+username bandit15
+password BfMYroe26WYalil77FoDi9qh59eK5xNr
