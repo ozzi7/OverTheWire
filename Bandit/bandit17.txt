@@ -8,7 +8,7 @@ nano priv.txt
 [copy paste key]
 
 chmod 600 /tmp/whateveryouwant/priv.txt # key file requires special rights
-ssh bandit17@localhost -i /tmp/uhm/priv.txt 
+ssh bandit17@localhost -i /tmp/whateveryouwant/priv.txt 
 cat /etc/bandit_pass/bandit17
 
 # returns private key
