@@ -1,0 +1,13 @@
+tmux
+[ctrl + b], % // opens a second tab
+[ctrl + b], [left, right arrow] // to navigate between them
+[ctrl + d] // to close a tab
+
+// on one tab start a server with
+(echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" ; cat) | ncat -l 4100 -k
+
+// on the other tab connect to the server
+./suconnect 4100
+
+username bandit21
+password gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
