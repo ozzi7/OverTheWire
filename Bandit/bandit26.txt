@@ -1,0 +1,9 @@
+// make terminal window <= 5 lines height
+ssh bandit26@localhost -i bandit26.sshkey -p 2220
+[v]
+:set shell sh=/bin/bash
+:sh
+cat /etc/bandit_pass/bandit26
+
+username bandit26
+password 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
