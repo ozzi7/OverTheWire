@@ -1,0 +1,9 @@
+mkdir /tmp/whatever/
+cd /tmp/whatever
+git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+5b90576bedb2cc04c86a9e924ce42faf
+
+git show --name-only secret
+47e603bb428404d265f59c42920d81e5
+bandit 31
+password 
