@@ -1,0 +1,11 @@
+mkdir /tmp/whatever/
+cd /tmp/whatever
+git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+bbc96594b4e001778eee9975372716b2
+git show-branch --all
+git remote show origin
+git checkout dev
+5b90576bedb2cc04c86a9e924ce42faf
+
+bandit 30
+password 5b90576bedb2cc04c86a9e924ce42faf
