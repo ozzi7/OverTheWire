@@ -1,0 +1,11 @@
+mkdir /tmp/whatever/
+cd /tmp/whatever
+git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+47e603bb428404d265f59c42920d81e5
+
+// edit .gitignore to allow .txt files
+create key.txt with "May I come in?"
+git push
+
+bandit 32
+password 56a9bf19c63d650ce78e6ec0354ee45e
