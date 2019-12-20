@@ -6,4 +6,4 @@ git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
 git show --name-only secret
 47e603bb428404d265f59c42920d81e5
 bandit 31
-password 
+password 47e603bb428404d265f59c42920d81e5
