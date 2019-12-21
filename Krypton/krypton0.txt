@@ -1,0 +1,10 @@
+We can revert S1JZUFRPTklTR1JFQVQ= by looking up the binary value in the base64 table
+S = 010010
+1 = 110101
+J = 001001
+Z = 011001 etc.
+then look up each 8 bit sequence in the ASCII table
+01001011, 01010010, 01011001, ... = KRY..
+
+username krypton1
+password KRYPTONISGREAT
